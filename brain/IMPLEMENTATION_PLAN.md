@@ -23,9 +23,9 @@ Build a paid MVP where users upload their wardrobe and photos of themselves, set
 
 ---
 
-### **STEP 0 – Project Setup**
+### **STEP 0 – Project Setup** ✅
 
-- [ ] Set up folder structure:
+- [x] Set up folder structure:
 ```bash
 /personal-stylist-ai/
 ├── /app/            # App Router structure (pages, layouts, routing)
@@ -42,24 +42,24 @@ Build a paid MVP where users upload their wardrobe and photos of themselves, set
 ├── build-plan.md    # <-- This file
 ```
 
-- [ ] Initialize project:
+- [x] Initialize project:
 ```bash
 npx create-next-app@latest personal-stylist-ai --typescript --app
 cd personal-stylist-ai
 ```
 
-- [ ] Install dependencies:
+- [x] Install dependencies:
 ```bash
 npm install supabase stripe @stripe/stripe-js @supabase/supabase-js tailwindcss postcss autoprefixer
 npx tailwindcss init -p
 ```
 
-- [ ] Set up Tailwind in `tailwind.config.js` and `globals.css`
+- [x] Set up Tailwind in `tailwind.config.js` and `globals.css`
 
 #### ✅ Tests:
-- Can you start the dev server (`npm run dev`) and load the homepage?
-- Does Tailwind styling apply correctly?
-- Are all folders and TypeScript config in place?
+✅ Can you start the dev server (`npm run dev`) and load the homepage?
+✅ Does Tailwind styling apply correctly?
+✅ Are all folders and TypeScript config in place?
 
 ---
 
